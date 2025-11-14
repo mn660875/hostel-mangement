@@ -15,6 +15,7 @@ export default function LandingPage() {
          <li><a href="#facilities" className="hover:text-blue-600 transition">Facilities</a></li> 
           <li><a href="#gallery" className="hover:text-blue-600 transition">Gallery</a></li>
          <li> <a href="#contact" className="hover:text-blue-600 transition">Contact</a></li>
+
           
 </ul>
        
@@ -24,6 +25,12 @@ export default function LandingPage() {
           className="px-4 py-2 bg-[#003262] text-white rounded-lg hover:bg-blue-700 transition"
         >
         Admin Login
+        </Link>
+        <Link
+          href="/login"
+          className="px-4 py-2 bg-[#003262] text-white rounded-lg hover:bg-blue-700 transition"
+        >
+         Student Login
         </Link>
       </header>
 
